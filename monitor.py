@@ -9,6 +9,7 @@ KST = ZoneInfo("Asia/Seoul")
 # 텔레그램 설정
 BOT_TOKEN = "8888421467:AAEB9TC5IS0Ag81C4lIpmMZrUTDWfZi8hfU"
 CHAT_ID = "8656367638"
+
 # 키워드
 KEYWORDS = ["현정은", "현대엘리베이터", "현대무벡스"]
 
@@ -51,4 +52,3 @@ for kw in KEYWORDS:
 send_telegram(message)
 
 print("텔레그램 전송 완료")
-
